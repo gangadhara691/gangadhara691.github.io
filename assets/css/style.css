@@ -46,6 +46,11 @@ a, ul, ol, button, .item {
     transition: background-color .2s linear, color .2s linear, border .2s linear;
 }
 
+::selection{background:rgba(0,0,0,0.1);}
+::-moz-selection{background:rgba(0,0,0,0.1);}
+img::-moz-selection{background:transparent;}
+img::selection{background:transparent;}
+img::-moz-selection{background:transparent;}
 
 .border {
     display: block;
@@ -364,12 +369,12 @@ a, ul, ol, button, .item {
 /* ABOUT */
 
 #about {
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('../img/certi.jpg') no-repeat center center scroll;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('../img/fuji.jpg') no-repeat center center scroll;
     background: linear-gradient(
-        rgba(255, 255, 255, 0), 
-        rgba(255, 255, 255, 0)
-        ), url('../img/certi.jpg') no-repeat center center scroll;
-    background-size: contain;
+        rgba(255, 255, 255, 0.75), 
+        rgba(255, 255, 255, 0.75)
+        ), url('../img/fuji.jpg') no-repeat center center scroll;
+    background-size: cover;
     color: #555;
 }
 
