@@ -48,9 +48,7 @@ a, ul, ol, button, .item {
 
 ::selection{background:rgba(0,0,0,0.1);}
 ::-moz-selection{background:rgba(0,0,0,0.1);}
-img::-moz-selection{background:transparent;}
-img::selection{background:transparent;}
-img::-moz-selection{background:transparent;}
+
 
 .border {
     display: block;
