@@ -373,7 +373,7 @@ img::-moz-selection{background:transparent;}
     background: linear-gradient(
         rgba(255, 255, 255, 0.75), 
         rgba(255, 255, 255, 0.75)
-        ), url('../img/fuji.jpg') no-repeat center center scroll;
+        ), url('../img/certi.jpg') no-repeat center center scroll;
     background-size: cover;
     color: #555;
 }
