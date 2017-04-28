@@ -364,12 +364,12 @@ a, ul, ol, button, .item {
 /* ABOUT */
 
 #about {
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85)), url('../img/fuji.jpg') no-repeat center center scroll;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('../img/certi.jpg') no-repeat center center scroll;
     background: linear-gradient(
-        rgba(255, 255, 255, 0.75), 
-        rgba(255, 255, 255, 0.75)
+        rgba(255, 255, 255, 0), 
+        rgba(255, 255, 255, 0)
         ), url('../img/certi.jpg') no-repeat center center scroll;
-    background-size: cover;
+    background-size: contain;
     color: #555;
 }
 
